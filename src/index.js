@@ -1,7 +1,5 @@
 module.exports = function multiply(first, second) {
-
+  // return the result of multiplying two large numbers as a string
   return String (BigInt(first)*BigInt(second));
-  //  здесь надо исползовать BigInt т.к. в тестах используются большие числа
-  //  String преобразует из числа строку.
 }
 
